@@ -1,0 +1,11 @@
+{% extends('layout.html') %}
+
+{% if title %}
+  <title>Flask Blog - {{ title }}</title>
+{% else %}
+  <title>Flask Blog</title>
+{% endif %}
+
+{% block content %}
+  <p>This is about </p>
+{% endblock %}
